@@ -10,7 +10,7 @@
  * Version: 1.9.0
  * Date:    13th August 2014
  */
-(function($) {
+areYouSure = function($) {
   
   $.fn.areYouSure = function(options) {
       
@@ -189,4 +189,6 @@
       initForm($form);
     });
   };
-})(jQuery);
+}
+
+module.exports = areYouSure;
